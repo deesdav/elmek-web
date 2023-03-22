@@ -249,7 +249,7 @@ footer {
 	color: white;
 	height: 60px;
 	width: 100%;
-	position: absolute;
+	position: relative;
 	bottom: 0;
 }
 
@@ -259,7 +259,7 @@ i {
 	top: 10px;
 	border: 1px solid white;
 	padding: 10px;
-	width: 35px;
+	width: 38px;
 	height: auto;
 	text-align: center;
 	border-radius: 50%;
