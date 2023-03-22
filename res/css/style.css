@@ -224,6 +224,7 @@ img{
 
 #content h2 {
 	text-align: center;
+	text-transform: uppercase;
 	font-size: 40px;
 	padding-bottom: 10px;
 	border-bottom: 5px solid #b8883b;
@@ -291,8 +292,9 @@ i:hover {
 	display: none;
 }
 iframe {
-	width: 1690px;
+	width: 1350px;
 	display: flex;
+	margin: auto;
 	justify-content: center;
 	align-items: center;
 }
@@ -319,14 +321,14 @@ iframe {
 
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1524px) {
 
 	.container {
 		margin: auto;
 	}
 
 	iframe {
-		width: 420px;
+		width: 394px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
