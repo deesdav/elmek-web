@@ -5,6 +5,6 @@
 <a href="https://github.com/deesdav">D. Švancar</a> <br>
 <a href="https://github.com/Ejdmmm">A. Bartoš</a> <br>
 <a href="https://github.com/Mirecek2011CZ">M. Hanč</a> <br>
-<hr>
+
 
 
