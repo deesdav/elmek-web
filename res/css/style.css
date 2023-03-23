@@ -135,7 +135,7 @@
 	cursor: pointer;
 	font-weight: bold;
 	transition: .5s;
-	border-radius: 15px;
+	border-radius: 15px; 
 }
 
 #backButton:hover {
