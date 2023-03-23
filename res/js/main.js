@@ -183,3 +183,7 @@ four.onclick = () =>{
     infoKvetovyPastovany.style.display = "none";
     infoHorsky.style.display = "none";
 }
+
+setTimeout(() => {
+    document.body.style.display = "block";
+}, 900);

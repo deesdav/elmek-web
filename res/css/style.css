@@ -223,6 +223,7 @@ body {
 	background-position: center;
 	background-repeat: repeat;
 	background-attachment: fixed;
+	display: none;
 }
 
 .container {
