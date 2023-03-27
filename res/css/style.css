@@ -47,35 +47,20 @@
 #infoKvetovyPastovany {
 	display: none;
 }
-#infoLesni div{
+
+#infoLesni div {
 	padding: 1em;
 	font-size: 20px;
 }
 
-#infoLesni img:hover{
+#infoLesni img:hover {
 	transform: scale(0.92);
 	transition: 0.5s ease;
 	border-bottom: 0.5px solid #b8883b;
 	border-top: 0.5px solid #b8883b;
 }
-#infoLesni img{
-	width: 300px;
-	height: auto;
-	display: block;
-	margin: auto;
-	padding: 1em;
-}
-#infoHorsky div{
-	padding: 1em;
-	font-size: 20px;
-}
-#infoHorsky img:hover{
-	transform: scale(0.92);
-	transition: 0.5s ease;
-	border-bottom: 0.5px solid #b8883b;
-	border-top: 0.5px solid #b8883b;
-}
-#infoHorsky img{
+
+#infoLesni img {
 	width: 300px;
 	height: auto;
 	display: block;
@@ -83,34 +68,60 @@
 	padding: 1em;
 }
 
-#infoKvetovy div{
+#infoHorsky div {
 	padding: 1em;
 	font-size: 20px;
 }
-#infoKvetovy img:hover{
+
+#infoHorsky img:hover {
 	transform: scale(0.92);
 	transition: 0.5s ease;
 	border-bottom: 0.5px solid #b8883b;
 	border-top: 0.5px solid #b8883b;
+
 }
-#infoKvetovy img{
+
+#infoHorsky img {
 	width: 300px;
 	height: auto;
 	display: block;
 	margin: auto;
 	padding: 1em;
 }
-#infoKvetovyPastovany div{
+
+#infoKvetovy div {
 	padding: 1em;
 	font-size: 20px;
 }
-#infoKvetovyPastovany img:hover{
+
+#infoKvetovy img:hover {
 	transform: scale(0.92);
 	transition: 0.5s ease;
 	border-bottom: 0.5px solid #b8883b;
 	border-top: 0.5px solid #b8883b;
 }
-#infoKvetovyPastovany img{
+
+#infoKvetovy img {
+	width: 300px;
+	height: auto;
+	display: block;
+	margin: auto;
+	padding: 1em;
+}
+
+#infoKvetovyPastovany div {
+	padding: 1em;
+	font-size: 20px;
+}
+
+#infoKvetovyPastovany img:hover {
+	transform: scale(0.92);
+	transition: 0.5s ease;
+	border-bottom: 0.5px solid #b8883b;
+	border-top: 0.5px solid #b8883b;
+}
+
+#infoKvetovyPastovany img {
 	width: 300px;
 	height: auto;
 	display: block;
@@ -122,20 +133,20 @@
 #two,
 #three,
 #four {
-	width: 350px;
-	height: 80px;
-	margin: 8px auto;
+	width: 300px;
+	height: 85px;
+	margin: 0px;
 	background-color: #b8883bd3;
 	color: white;
-	font-size: xx-large;
+	font-size: 25px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 1em;
+	gap: 10px;
 	cursor: pointer;
 	font-weight: bold;
 	transition: .5s;
-	border-radius: 15px; 
+	border-radius: 15px;
 }
 
 #backButton:hover {
@@ -203,7 +214,7 @@
 
 ::-webkit-scrollbar-thumb {
 	background: grey;
-	
+
 }
 
 
@@ -231,15 +242,12 @@ body {
 	margin-right: 5%;
 }
 
-header {
-	font-weight: bold;
-	font-size: 18px;
-}
-
+header,
 footer {
 	font-weight: bold;
 	font-size: 18px;
 }
+
 
 .nav {
 	width: 100%;
@@ -392,7 +400,7 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 800px;
+	width: 700px;
 	margin: auto;
 	height: auto;
 	padding-bottom: 10px;
@@ -438,16 +446,16 @@ footer {
 	height: 60px;
 	width: 100%;
 	overflow: hidden;
-	position: relative;
-	top: 40px;
 }
 
 #up {
-	position: absolute;
-	right: 50px;
-	top: 10px;
 	border: 1px solid white;
 	padding: 10px;
+	margin: auto;
+	display: block;
+	position: relative;
+	top: -30px;
+	left: 700px;
 	width: 38px;
 	height: auto;
 	text-align: center;
@@ -455,7 +463,6 @@ footer {
 	font-size: large;
 	cursor: pointer;
 	transition: .5s;
-
 }
 
 #up:hover {
@@ -529,7 +536,6 @@ iframe {
 		color: white;
 		height: 60px;
 		width: 100%;
-		position: relative;
 	}
 
 	.uly {
@@ -556,9 +562,8 @@ iframe {
 	#up {
 
 		font-size: medium;
-		position: absolute;
-		right: 20px;
-		top: 10px;
+		position: relative;
+		left: 185px;
 
 	}
 
