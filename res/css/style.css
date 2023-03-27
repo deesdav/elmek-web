@@ -402,7 +402,7 @@ footer {
 	align-items: center;
 	width: 700px;
 	margin: auto;
-	height: auto;
+	height: min-content;
 	padding-bottom: 10px;
 }
 
