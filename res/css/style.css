@@ -668,6 +668,9 @@ iframe {
     text-align: center;
     font-size: 30px;
   }
+  #content #charakteristika{
+    height: auto;
+  }
 
   #up {
     font-size: medium;
