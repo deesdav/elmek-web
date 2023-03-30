@@ -75,6 +75,7 @@ menuHome.onclick = () => {
   infoHorsky600.style.display = "none";
   infoKvetovy600.style.display = "none";
   infoLipovy600.style.display = "none";
+  document.title = "Elmek - Výroba a zpracování medu";
 };
 menuCharakteristika.onclick = () => {
   home.style.display = "none";
@@ -90,6 +91,7 @@ menuCharakteristika.onclick = () => {
   infoHorsky600.style.display = "none";
   infoKvetovy600.style.display = "none";
   infoLipovy600.style.display = "none";
+  document.title = "Elmek - Charakteristika";
 };
 menuProdukty.onclick = () => {
   home.style.display = "none";
@@ -105,6 +107,7 @@ menuProdukty.onclick = () => {
   infoHorsky600.style.display = "none";
   infoKvetovy600.style.display = "none";
   infoLipovy600.style.display = "none";
+  document.title = "Elmek - Produkty";
 };
 menuKontakty.onclick = () => {
   home.style.display = "none";
@@ -120,6 +123,7 @@ menuKontakty.onclick = () => {
   infoHorsky600.style.display = "none";
   infoKvetovy600.style.display = "none";
   infoLipovy600.style.display = "none";
+  document.title = "Elmek - Kontakty";
 };
 
 
