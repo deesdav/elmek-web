@@ -27,8 +27,16 @@
 #medyphotos2,
 #medyphotos3,
 #medyphotos4,
-#medyphotos5, #medyphotos6, #medyphotos7, #medyphotos8, #medyphotos9 {
+#medyphotos5,
+#medyphotos6,
+#medyphotos7,
+#medyphotos8,
+#medyphotos9 {
   width: 240px;
+  height: auto;
+}
+#medyphotos10, #medyphotos11, #medyphotos12, #medyphotos13, #medyphotos14{
+  width: 245px;
   height: auto;
 }
 
@@ -40,9 +48,17 @@
 #infoLesni,
 #infoHorsky,
 #infoKvetovy,
-#infoKvetovyPastovany, #infoLipovy,
-#infoLesni600, #infoHorsky600, #infoKvetovy600, #infoLipovy600 
-{
+#infoKvetovyPastovany,
+#infoLipovy,
+#infoLesni600,
+#infoHorsky600,
+#infoKvetovy600,
+#infoLipovy600,
+#infoLesni400,
+#infoKvetovy400,
+#infoLesni250,
+#infoKvetovy250,
+#infoBear {
   display: none;
 }
 
@@ -125,6 +141,7 @@
   margin: auto;
   padding: 1em;
 }
+
 #infoLipovy div {
   padding: 1em;
   font-size: 20px;
@@ -144,6 +161,7 @@
   margin: auto;
   padding: 1em;
 }
+
 #infoLesni600 div {
   padding: 1em;
   font-size: 20px;
@@ -163,6 +181,7 @@
   margin: auto;
   padding: 1em;
 }
+
 #infoHorsky600 div {
   padding: 1em;
   font-size: 20px;
@@ -182,6 +201,7 @@
   margin: auto;
   padding: 1em;
 }
+
 #infoKvetovy600 div {
   padding: 1em;
   font-size: 20px;
@@ -201,6 +221,7 @@
   margin: auto;
   padding: 1em;
 }
+
 #infoLipovy600 div {
   padding: 1em;
   font-size: 20px;
@@ -220,11 +241,111 @@
   margin: auto;
   padding: 1em;
 }
+#infoLesni400 div {
+  padding: 1em;
+  font-size: 20px;
+}
+
+#infoLesni400 img:hover {
+  transform: scale(0.92);
+  transition: 0.5s ease;
+  border-bottom: 0.5px solid #b8883b;
+  border-top: 0.5px solid #b8883b;
+}
+
+#infoLesni400 img {
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: auto;
+  padding: 1em;
+}
+#infoKvetovy400 div {
+  padding: 1em;
+  font-size: 20px;
+}
+
+#infoKvetovy400 img:hover {
+  transform: scale(0.92);
+  transition: 0.5s ease;
+  border-bottom: 0.5px solid #b8883b;
+  border-top: 0.5px solid #b8883b;
+}
+
+#infoKvetovy400 img {
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: auto;
+  padding: 1em;
+}
+#infoLesni250 div {
+  padding: 1em;
+  font-size: 20px;
+}
+
+#infoLesni250 img:hover {
+  transform: scale(0.92);
+  transition: 0.5s ease;
+  border-bottom: 0.5px solid #b8883b;
+  border-top: 0.5px solid #b8883b;
+}
+
+#infoLesni250 img {
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: auto;
+  padding: 1em;
+}
+#infoKvetovy250 div {
+  padding: 1em;
+  font-size: 20px;
+}
+
+#infoKvetovy250 img:hover {
+  transform: scale(0.92);
+  transition: 0.5s ease;
+  border-bottom: 0.5px solid #b8883b;
+  border-top: 0.5px solid #b8883b;
+}
+
+#infoKvetovy250 img {
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: auto;
+  padding: 1em;
+}
+#infoBear div {
+  padding: 1em;
+  font-size: 20px;
+}
+
+#infoBear img:hover {
+  transform: scale(0.92);
+  transition: 0.5s ease;
+  border-bottom: 0.5px solid #b8883b;
+  border-top: 0.5px solid #b8883b;
+}
+
+#infoBear img {
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: auto;
+  padding: 1em;
+}
 
 #backButton,
 #two,
 #three,
-#four, #five, #six, #seven, #eight, #nine{
+#four,
+#five,
+#six,
+#seven,
+#eight,
+#nine, #ten, #eleven, #twelve, #thirtheen, #fourtheen {
   width: 300px;
   height: 85px;
   margin: 0px;
@@ -260,23 +381,48 @@
   color: black;
   background-color: white;
 }
+
 #five:hover {
   color: black;
   background-color: white;
 }
+
 #six:hover {
   color: black;
   background-color: white;
 }
+
 #seven:hover {
   color: black;
   background-color: white;
 }
+
 #eight:hover {
   color: black;
   background-color: white;
 }
+
 #nine:hover {
+  color: black;
+  background-color: white;
+}
+#ten:hover {
+  color: black;
+  background-color: white;
+}
+#eleven:hover {
+  color: black;
+  background-color: white;
+}
+#twelve:hover {
+  color: black;
+  background-color: white;
+}
+#thirtheen:hover {
+  color: black;
+  background-color: white;
+}
+#fourtheen:hover {
   color: black;
   background-color: white;
 }
@@ -308,31 +454,66 @@
   border: 1px solid white;
   border-radius: 50%;
 }
+
 #five i {
   font-size: xx-large;
   padding: 10px;
   border: 1px solid white;
   border-radius: 50%;
 }
+
 #six i {
   font-size: xx-large;
   padding: 10px;
   border: 1px solid white;
   border-radius: 50%;
 }
+
 #seven i {
   font-size: xx-large;
   padding: 10px;
   border: 1px solid white;
   border-radius: 50%;
 }
+
 #eight i {
   font-size: xx-large;
   padding: 10px;
   border: 1px solid white;
   border-radius: 50%;
 }
+
 #nine i {
+  font-size: xx-large;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+#ten i {
+  font-size: xx-large;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+#eleven i {
+  font-size: xx-large;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+#twelve i {
+  font-size: xx-large;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+#thirtheen i {
+  font-size: xx-large;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+#fourtheen i {
   font-size: xx-large;
   padding: 10px;
   border: 1px solid white;
@@ -537,10 +718,12 @@ footer {
   background-color: white;
   box-shadow: 0 0 20px black;
 }
+
 #content #produkty {
   overflow: auto;
 }
-#content #charakteristika{
+
+#content #charakteristika {
   height: 800px;
 }
 
@@ -562,7 +745,7 @@ footer {
   padding-left: 0;
   padding: 1em;
   font-size: 22px;
-} 
+}
 
 footer {
   padding: 1em;
@@ -668,7 +851,8 @@ iframe {
     text-align: center;
     font-size: 30px;
   }
-  #content #charakteristika{
+
+  #content #charakteristika {
     height: auto;
   }
 
