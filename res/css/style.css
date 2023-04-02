@@ -836,6 +836,9 @@ iframe {
     height: 60px;
     width: 100%;
   }
+  footer div{
+    font-size: 15px;
+  }
 
   .uly {
     display: flex;
@@ -857,9 +860,7 @@ iframe {
   }
 
   #up {
-    font-size: medium;
-    position: relative;
-    left: 185px;
+   display: none;
   }
 
   .nav div.logo {
